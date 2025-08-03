@@ -16,6 +16,8 @@
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+    <button id="theme-toggle" class="theme-toggle">🌙</button>
+
   </nav>
 
   
@@ -62,13 +64,14 @@
 
   <section id="contact" class="contact">
     <h2>Contact Me</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" required></textarea>
+    <form id="contact-form">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
       <button type="submit">Send</button>
     </form>
   </section>
+
 
   
   <footer class="footer">
@@ -79,5 +82,6 @@
     </div>
     <p>&copy; 2025 Lesly Minaya. All rights reserved.</p>
   </footer>
+<script src="index.js"></script>
 </body>
 </html>
